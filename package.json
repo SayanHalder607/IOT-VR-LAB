@@ -1,0 +1,33 @@
+{
+  "name": "iot-vr-lab",
+  "version": "1.0.0",
+  "description": "An interactive 3D WebXR virtual electronics & IoT laboratory with Arduino & Raspberry Pi simulation, real-time circuit solver, and 14 guided experiments.",
+  "main": "index.html",
+  "homepage": "https://sayanhalder607.github.io/IOT-VR-LAB/",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SayanHalder607/IOT-VR-LAB.git"
+  },
+  "bugs": {
+    "url": "https://github.com/SayanHalder607/IOT-VR-LAB/issues"
+  },
+  "author": "Sayan Halder",
+  "license": "MIT",
+  "keywords": [
+    "iot",
+    "virtual-reality",
+    "webxr",
+    "threejs",
+    "arduino",
+    "raspberry-pi",
+    "circuit-simulator",
+    "electronics",
+    "stem",
+    "virtual-classroom"
+  ],
+  "scripts": {
+    "start": "npx serve . -l 8000",
+    "dev": "python -m http.server 8000",
+    "format": "npx prettier --write \"src/*.js\" styles.css"
+  }
+}
