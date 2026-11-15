@@ -220,18 +220,17 @@ IOT-VR-LAB/
 
 ---
 
-## 🌐 Deploying to GitHub Pages
+## 🌐 Live Demo & GitHub Pages
 
-This repository is pre-configured with a GitHub Actions workflow (`.github/workflows/deploy.yml`).
+The project is hosted and running live via GitHub Pages at:
+👉 **[https://sayanhalder607.github.io/IOT-VR-LAB/](https://sayanhalder607.github.io/IOT-VR-LAB/)**
 
-To enable live hosting on your fork:
+### Deploying to Your Own Fork:
 1. Go to your repository **Settings** on GitHub.
 2. In the left sidebar, click **Pages**.
-3. Under **Build and deployment > Source**, select **GitHub Actions**.
-4. Every push to the `main` branch will automatically build and publish the live site to:
-   ```
-   https://<your-username>.github.io/IOT-VR-LAB/
-   ```
+3. Under **Build and deployment > Source**, choose **Deploy from a branch**.
+4. Set the branch to **`main`** and the folder to **`/ (root)`**, then click **Save**.
+5. Your live WebXR lab will be automatically published within 1–2 minutes!
 
 ---
 
